@@ -1,0 +1,126 @@
+﻿/* Custom styles for Zenco Greens */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #15803d;
+  --primary-dark: #166534;
+  --primary-light: #22c55e;
+  --accent: #ca8a04;
+  --dark: #0f172a;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #334155;
+  background-color: #fafaf9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* WhatsApp Floating Button Pulse */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(37, 211, 102, 0.55);
+  background-color: #20ba59;
+}
+
+.whatsapp-pulse {
+  animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+/* Image card hover */
+.product-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+}
+
+.product-img-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.product-img-wrapper img {
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover .product-img-wrapper img {
+  transform: scale(1.05);
+}
+
+/* Badge styling */
+.badge-eco {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.badge-b2b {
+  background: #eff6ff;
+  color: #1e40af;
+  border: 1px solid #bfdbfe;
+}
+
+/* Hero gradient */
+.hero-gradient {
+  background: radial-gradient(circle at 10% 20%, rgba(34, 197, 94, 0.08) 0%, rgba(240, 253, 244, 0.5) 90%);
+}
+
+/* Custom shadow */
+.shadow-soft {
+  box-shadow: 0 10px 30px -10px rgba(22, 101, 52, 0.08);
+}
+
+/* Spec table styling */
+.spec-table th {
+  background-color: #f8fafc;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 14px;
+}
+.spec-table td {
+  padding: 10px 14px;
+  border-top: 1px solid #f1f5f9;
+}

@@ -1,0 +1,37 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <linearGradient id="potGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803d" />
+      <stop offset="100%" stop-color="#052e16" />
+    </linearGradient>
+    <linearGradient id="zencoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#14532d" />
+      <stop offset="100%" stop-color="#166534" />
+    </linearGradient>
+  </defs>
+  <!-- Icon badge -->
+  <g transform="translate(10, 8)">
+    <rect x="0" y="0" width="64" height="64" rx="16" fill="url(#potGrad)" />
+    <!-- Planter bag silhouette -->
+    <path d="M16 26 L48 26 L44 52 A4 4 0 0 1 40 56 L24 56 A4 4 0 0 1 20 52 Z" fill="#22c55e" opacity="0.3" stroke="#86efac" stroke-width="2"/>
+    <!-- Plants sprouting -->
+    <path d="M32 32 C32 20 22 14 18 16 C16 24 24 28 32 30" fill="url(#leafGrad)"/>
+    <path d="M32 32 C32 18 42 12 46 14 C48 22 40 28 32 30" fill="#4ade80"/>
+    <circle cx="26" cy="34" r="1.5" fill="#fef08a"/>
+    <circle cx="38" cy="34" r="1.5" fill="#fef08a"/>
+    <line x1="32" y1="30" x2="32" y2="46" stroke="#bbf7d0" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Text Brand -->
+  <g transform="translate(86, 26)">
+    <text x="0" y="18" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="25" font-weight="800" fill="url(#zencoGrad)" letter-spacing="-0.5">
+      ZENCO <tspan fill="#22c55e">GREENS</tspan>
+    </text>
+    <text x="1" y="36" font-family="'Inter', system-ui, sans-serif" font-size="9.5" font-weight="700" fill="#15803d" letter-spacing="1.2">
+      PREMIUM HDPE GROW BAGS • BHUBANESWAR
+    </text>
+  </g>
+</svg>
