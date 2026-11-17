@@ -4,19 +4,19 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://zencogreens.com/</loc>
+    <loc>https://zencogreens.in/</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://zencogreens.com/assets/images/zenco-growbag-family-collection.jpg</image:loc>
+      <image:loc>https://zencogreens.in/assets/images/zenco-growbag-family-collection.jpg</image:loc>
       <image:title>Zenco Greens Premium HDPE Grow Bags Bhubaneswar</image:title>
     </image:image>
   </url>
 
   <!-- Product Catalog -->
   <url>
-    <loc>https://zencogreens.com/products.html</loc>
+    <loc>https://zencogreens.in/products.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -24,55 +24,55 @@
 
   <!-- Product Details: Fruit Tree Bag -->
   <url>
-    <loc>https://zencogreens.com/product-fruit-tree.html</loc>
+    <loc>https://zencogreens.in/product-fruit-tree.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://zencogreens.com/assets/images/zenco-mango-fruit-tree-bag.jpg</image:loc>
+      <image:loc>https://zencogreens.in/assets/images/zenco-mango-fruit-tree-bag.jpg</image:loc>
       <image:title>Mango Fruit Tree in 24x24 Grow Bag Bhubaneswar</image:title>
     </image:image>
   </url>
 
   <!-- Product Details: Vegetable & Rose Bags -->
   <url>
-    <loc>https://zencogreens.com/product-vegetable-bags.html</loc>
+    <loc>https://zencogreens.in/product-vegetable-bags.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://zencogreens.com/assets/images/zenco-red-rose-growbag.jpg</image:loc>
+      <image:loc>https://zencogreens.in/assets/images/zenco-red-rose-growbag.jpg</image:loc>
       <image:title>12x12 Round Vegetable and Rose Grow Bag</image:title>
     </image:image>
   </url>
 
   <!-- Product Details: Rectangular Raised Grow Bed -->
   <url>
-    <loc>https://zencogreens.com/product-rectangular-growbed.html</loc>
+    <loc>https://zencogreens.in/product-rectangular-growbed.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://zencogreens.com/assets/images/zenco-rose-jasmine-bag.jpg</image:loc>
+      <image:loc>https://zencogreens.in/assets/images/zenco-rose-jasmine-bag.jpg</image:loc>
       <image:title>Raised Rectangular Terrace Grow Bed Planter</image:title>
     </image:image>
   </url>
 
   <!-- B2B & Institutional Portal -->
   <url>
-    <loc>https://zencogreens.com/b2b-wholesale.html</loc>
+    <loc>https://zencogreens.in/b2b-wholesale.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
     <image:image>
-      <image:loc>https://zencogreens.com/assets/images/zenco-duo-hdpe-growbags.jpg</image:loc>
+      <image:loc>https://zencogreens.in/assets/images/zenco-duo-hdpe-growbags.jpg</image:loc>
       <image:title>Commercial Nursery Grow Bags Wholesale Supply Odisha</image:title>
     </image:image>
   </url>
 
   <!-- Blog & Gardening Guides Hub -->
   <url>
-    <loc>https://zencogreens.com/blog.html</loc>
+    <loc>https://zencogreens.in/blog.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -80,7 +80,7 @@
 
   <!-- Blog Article: Terrace Gardening in Bhubaneswar -->
   <url>
-    <loc>https://zencogreens.com/blog-terrace-gardening-bhubaneswar.html</loc>
+    <loc>https://zencogreens.in/blog-terrace-gardening-bhubaneswar.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -88,7 +88,7 @@
 
   <!-- Enquiry / Get Quote -->
   <url>
-    <loc>https://zencogreens.com/enquiry.html</loc>
+    <loc>https://zencogreens.in/enquiry.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -96,7 +96,7 @@
 
   <!-- Contact Us -->
   <url>
-    <loc>https://zencogreens.com/contact.html</loc>
+    <loc>https://zencogreens.in/contact.html</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
