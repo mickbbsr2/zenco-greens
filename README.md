@@ -35,6 +35,14 @@ Created for your digital marketing client **Zenco Greens**. Built with modern HT
 ### Local Preview
 Simply open any of the HTML files in your browser (e.g. double-click [index.html](file:///C:/Users/mickb/.gemini/antigravity/scratch/zenco-greens/index.html)).
 
+### Rebuilding Tailwind CSS
+Tailwind utilities are compiled into `assets/css/tailwind.generated.css` so pages do not need the Tailwind CDN at runtime. If page classes change, download the Tailwind CSS 3.4.17 standalone CLI and regenerate the stylesheet from the repository root:
+
+```powershell
+curl.exe -L https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.17/tailwindcss-windows-x64.exe -o tailwindcss.exe
+.\tailwindcss.exe -c .\tailwind.config.js -i .\assets\css\tailwind.css -o .\assets\css\tailwind.generated.css --minify
+```
+
 ### Free 1-Click Hosting Options:
 * **Netlify / Vercel:** Drag and drop the `zenco-greens` folder directly onto Netlify Drop (https://app.netlify.com/drop) to get a live URL in 30 seconds.
 * **GitHub Pages:** Push this folder to a GitHub repository and enable GitHub Pages in settings.
