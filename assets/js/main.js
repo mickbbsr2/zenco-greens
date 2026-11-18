@@ -1,5 +1,16 @@
 ﻿// Zenco Greens Main Script
 document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('click', event => {
+    const link = event.target instanceof Element ? event.target.closest('a') : null;
+    if (!link) return;
+
+    if (link.matches('a[href^="https://wa.me/"]')) {
+      trackAnalyticsEvent('contact', { method: 'whatsapp' });
+    } else if (link.matches('a[href^="tel:"]')) {
+      trackAnalyticsEvent('contact', { method: 'phone' });
+    }
+  });
+
   // Mobile Menu Toggle
   const mobileMenuBtn = document.getElementById('mobileMenuBtn');
   const mobileMenu = document.getElementById('mobileMenu');
@@ -74,6 +85,10 @@ document.addEventListener('DOMContentLoaded', () => {
   if (enquiryForm) {
     enquiryForm.addEventListener('submit', (e) => {
       e.preventDefault();
+      trackAnalyticsEvent('generate_lead', {
+        method: 'website_form',
+        form_id: enquiryForm.id
+      });
       
       const name = document.getElementById('name')?.value || 'Customer';
       const phone = document.getElementById('phone')?.value || '';
@@ -113,8 +128,18 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+function trackAnalyticsEvent(name, parameters) {
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', name, parameters);
+  }
+}
+
 // Quick WhatsApp message helper for product buttons
 function openProductWhatsApp(productName, size) {
+  trackAnalyticsEvent('contact', {
+    method: 'whatsapp',
+    source: 'product_button'
+  });
   const text = `Hello Zenco Greens! I am interested in ordering/inquiring about *${productName}* (Size: ${size}). Please share price and delivery details for Bhubaneswar/Odisha.`;
   const url = `https://wa.me/919437040880?text=${encodeURIComponent(text)}`;
   window.open(url, '_blank');
